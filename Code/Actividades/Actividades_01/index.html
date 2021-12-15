@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Fomulario-Pelicula</title>
+    <link rel='stylesheet' type='text/css' href='estilos.css'>
+    <script src='scripts.js'></script>
+</head>
+<body>
+    <section class="container">
+    <div class="item header">
+    <h1>Formulario de Peliculas</h1>
+    </div>
+    <div class="item content"> 
+    <form>
+        <ul class="formulario">
+            <li class="formulario-peliculas">
+                <label for="Titulo">Pelicula</label>          
+            </li>
+            <li class="formulario-pelicula">
+                <label for="Titulo">Titulo:</label>
+                <input type="text" id="Titulo" value=""/>        
+            </li>
+            <li class="formulario-pelicula"> 
+                <label for="Descripcion">Descripcion:</label>
+                <input type="text" id="Descripcion" value=""/>                                    
+            </li>
+            <li class="formulario-pelicula">
+                <label for="Genero">Genero:</label>
+                <input type="text" id="Genero" value=""/>                                    
+            </li>
+            <li class="formulario-pelicula">
+                <button type="button" id="btn" onclick="guardar()">Guardar</button>                            
+            </li>
+        </ul>
+         <table id="info-pelicula">
+          <tr>
+           <td>
+            Titulo
+           </td>
+           <td>
+            Descripcion
+           </td>
+           <td>
+            Genero
+           </td>
+          </tr>
+         </table>
+    </form>
+    <div class="forulario" id="texto"></div>
+</div> 
+<footer>
+    <div class="item footer">
+   <b>
+    <small>Allan Veliz &copy; 2021</small>
+   </b> 
+   </div>
+   </section>
+   </body>
+   </footer>
+</html>
